@@ -10,11 +10,11 @@
 }
 
 :root {
-  --background: #0f0f12;
+  --background: #020617;
   --foreground: #ffffff;
-  --card-bg: rgba(20, 20, 25, 0.8);
-  --primary: #10b981;
-  --accent: #34d399;
+  --card-bg: rgba(15, 23, 42, 0.8);
+  --primary: #2563eb;
+  --accent: #60a5fa;
   --highlight: #ffffff;
 }
 
@@ -29,22 +29,22 @@ body {
 
 .cyber-grid {
   background-image: 
-    linear-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(37, 99, 235, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
-.cyber-glow-emerald {
-  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+.cyber-glow-blue {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
 }
 
 .cyber-glow-text {
-  text-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
+  text-shadow: 0 0 10px rgba(96, 165, 250, 0.5);
 }
 
 .cyber-border {
   position: relative;
-  border: 1px solid rgba(14, 165, 233, 0.2);
+  border: 1px solid rgba(37, 99, 235, 0.2);
 }
 
 .cyber-border::before {
@@ -70,7 +70,7 @@ body {
 }
 
 .glass-morphism {
-  background: rgba(20, 20, 25, 0.6);
+  background: rgba(15, 23, 42, 0.6);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -78,17 +78,17 @@ body {
 
 .neon-button {
   @apply relative overflow-hidden transition-all duration-300;
-  background: linear-gradient(135deg, var(--primary), #059669);
-  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+  background: linear-gradient(135deg, var(--primary), #1d4ed8);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
 }
 
 .neon-button:hover {
-  box-shadow: 0 0 30px rgba(16, 185, 129, 0.6);
+  box-shadow: 0 0 30px rgba(37, 99, 235, 0.6);
   transform: translateY(-2px);
 }
 
 .tech-gradient-text {
-  @apply bg-clip-text text-transparent bg-linear-to-r from-white via-[#10b981] to-[#34d399];
+  @apply bg-clip-text text-transparent bg-linear-to-r from-white via-[#2563eb] to-[#60a5fa];
 }
 
 @keyframes float {
@@ -113,7 +113,7 @@ body {
 }
 
 .spotlight-bg {
-  background: radial-gradient(circle at 50% -20%, #064e3b 0%, #0f0f12 60%);
+  background: radial-gradient(circle at 50% -20%, #1e3a8a 0%, #020617 60%);
 }
 
 @keyframes marquee {

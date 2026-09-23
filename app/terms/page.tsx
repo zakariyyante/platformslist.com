@@ -13,7 +13,7 @@ export default function TermsPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Bem-vindo ao portal <span className="text-emerald-400 font-bold uppercase tracking-widest text-xs">Platforms List</span>.
+              Bem-vindo ao portal <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platforms List</span>.
             </p>
             <p>
               Estes termos e condições descrevem as regras e regulamentos para a utilização do website do Platforms List, localizado em platformslist.com.

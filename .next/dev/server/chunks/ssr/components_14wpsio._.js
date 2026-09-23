@@ -36,7 +36,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
         return text.split(/(\d+€|\d+FS)/g).map((part, i)=>{
             if (part.match(/\d+€|\d+FS/)) {
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "text-emerald-400 drop-shadow-[0_0_8px_rgba(16,185,129,0.6)] font-black",
+                    className: "text-blue-400 drop-shadow-[0_0_8px_rgba(37,99,235,0.6)] font-black",
                     children: part
                 }, i, false, {
                     fileName: "[project]/components/BrandCard.tsx",
@@ -52,25 +52,25 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
         if (rank === 1) {
             label = {
                 text: "Melhor Casino",
-                color: "bg-emerald-600"
+                color: "bg-blue-600"
             };
         } else if (rank === 2) {
             label = {
                 text: "Novo Casino",
-                color: "bg-emerald-950"
+                color: "bg-blue-950"
             };
         } else if (rank === 3) {
             label = {
                 text: "Levantamento Rápido",
-                color: "bg-emerald-900"
+                color: "bg-blue-900"
             };
         }
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-[#15151a] border border-emerald-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(16,185,129,0.15)] active:shadow-[0_0_50px_rgba(16,185,129,0.3)] transition-all duration-500",
+            className: "bg-[#15151a] border border-blue-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(37,99,235,0.15)] active:shadow-[0_0_50px_rgba(37,99,235,0.3)] transition-all duration-500",
             onClick: handleCardClick,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute inset-0 bg-emerald-500/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity"
+                    className: "absolute inset-0 bg-blue-500/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity"
                 }, void 0, false, {
                     fileName: "[project]/components/BrandCard.tsx",
                     lineNumber: 68,
@@ -124,7 +124,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
                                             children: [
                                                 ...Array(5)
                                             ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    className: "w-3.5 h-3.5 text-emerald-400 drop-shadow-[0_0_5px_rgba(16,185,129,0.4)]",
+                                                    className: "w-3.5 h-3.5 text-blue-400 drop-shadow-[0_0_5px_rgba(37,99,235,0.4)]",
                                                     fill: "currentColor",
                                                     viewBox: "0 0 20 20",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -182,7 +182,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "w-full py-4 rounded-xl bg-linear-to-r from-emerald-400 via-emerald-500 to-emerald-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(16,185,129,0.2)] active:scale-95 transition-all",
+                    className: "w-full py-4 rounded-xl bg-linear-to-r from-blue-400 via-blue-500 to-blue-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(37,99,235,0.2)] active:scale-95 transition-all",
                     onClick: (e)=>{
                         e.stopPropagation();
                         handleCardClick();
@@ -239,7 +239,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
                                         children: [
                                             ...Array(5)
                                         ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                className: `w-3 h-3 ${i < 5 ? "text-emerald-500" : "text-gray-600"}`,
+                                                className: `w-3 h-3 ${i < 5 ? "text-blue-500" : "text-gray-600"}`,
                                                 fill: "currentColor",
                                                 viewBox: "0 0 20 20",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -327,9 +327,9 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
                         className: "flex flex-col items-center md:items-end text-center md:text-right",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full mb-4",
+                                className: "bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full mb-4",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-[9px] font-black uppercase tracking-widest text-emerald-400",
+                                    className: "text-[9px] font-black uppercase tracking-widest text-blue-400",
                                     children: "Bónus Exclusivo"
                                 }, void 0, false, {
                                     fileName: "[project]/components/BrandCard.tsx",
@@ -362,7 +362,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                className: "w-full py-5 rounded-2xl bg-linear-to-r from-emerald-400 via-emerald-500 to-emerald-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(16,185,129,0.2)] hover:shadow-[0_0_30px_rgba(16,185,129,0.4)] transition-all cursor-pointer",
+                className: "w-full py-5 rounded-2xl bg-linear-to-r from-blue-400 via-blue-500 to-blue-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(37,99,235,0.2)] hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] transition-all cursor-pointer",
                 onClick: (e)=>{
                     e.stopPropagation();
                     handleCardClick();
@@ -404,7 +404,7 @@ function Header() {
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-            className: "fixed top-0 z-50 w-full bg-[#010401]/95 backdrop-blur-sm border-b border-white/5",
+            className: "fixed top-0 z-50 w-full bg-[#020617]/95 backdrop-blur-sm border-b border-white/5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 h-16 flex items-center justify-between",
@@ -449,7 +449,7 @@ function Header() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/",
-                                            className: "text-xs font-bold text-white hover:text-emerald-400 transition-colors tracking-widest uppercase",
+                                            className: "text-xs font-bold text-white hover:text-blue-500 transition-colors tracking-widest uppercase",
                                             children: "Início"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
@@ -458,7 +458,7 @@ function Header() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: "#brands",
-                                            className: "text-xs font-bold text-white hover:text-emerald-400 transition-colors tracking-widest uppercase",
+                                            className: "text-xs font-bold text-white hover:text-blue-500 transition-colors tracking-widest uppercase",
                                             children: "Classificação"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
@@ -467,7 +467,7 @@ function Header() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: "#guide",
-                                            className: "text-xs font-bold text-white hover:text-emerald-400 transition-colors tracking-widest uppercase",
+                                            className: "text-xs font-bold text-white hover:text-blue-500 transition-colors tracking-widest uppercase",
                                             children: "Critérios"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
@@ -476,7 +476,7 @@ function Header() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: "#about",
-                                            className: "text-xs font-bold text-white hover:text-emerald-400 transition-colors tracking-widest uppercase",
+                                            className: "text-xs font-bold text-white hover:text-blue-500 transition-colors tracking-widest uppercase",
                                             children: "Edição"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
@@ -500,7 +500,7 @@ function Header() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "#contact",
-                                    className: "hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-emerald-400/50 text-emerald-400 hover:bg-emerald-400/10 transition-all rounded-full",
+                                    className: "hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-blue-500/50 text-blue-500 hover:bg-blue-500/10 transition-all rounded-full",
                                     children: "Contacto"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
@@ -589,7 +589,7 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "md:hidden bg-[#010401] border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300",
+                    className: "md:hidden bg-[#020617] border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -634,7 +634,7 @@ function Header() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "#contact",
                             onClick: ()=>setIsOpen(false),
-                            className: "text-sm font-bold text-emerald-400 tracking-widest",
+                            className: "text-sm font-bold text-blue-500 tracking-widest",
                             children: "CONTACTO"
                         }, void 0, false, {
                             fileName: "[project]/components/Header.tsx",

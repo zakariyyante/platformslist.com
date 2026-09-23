@@ -108,3 +108,13 @@
 {"timestamp":"00:11:16.999","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/srij.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
 {"timestamp":"00:11:17.649","source":"Browser","level":"WARN","message":"Image with src \"/begambleaware.webp\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
 {"timestamp":"00:11:17.650","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/begambleaware.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:14:20.762","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"00:14:31.557","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:14:34.456","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:14:58.415","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:15:05.193","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:15:09.282","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:15:44.721","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:15:49.509","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"00:16:07.657","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:17:04.632","source":"Server","level":"LOG","message":"✓ Compiled in 100ms"}

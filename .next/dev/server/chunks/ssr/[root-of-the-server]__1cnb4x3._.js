@@ -72,7 +72,7 @@ async function Home(props) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         id: "brands",
-                        className: "py-32 px-6 bg-[#0f0f12]",
+                        className: "py-32 px-6 bg-[#020617]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "container mx-auto",
                             children: [
@@ -84,7 +84,7 @@ async function Home(props) {
                                             children: [
                                                 "Top ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-emerald-400",
+                                                    className: "text-blue-500",
                                                     children: "Plataformas"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
@@ -184,7 +184,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function AboutSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "about",
-        className: "py-32 px-6 bg-[#020205]",
+        className: "py-32 px-6 bg-[#020617]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto",
             children: [
@@ -210,7 +210,7 @@ function AboutSection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "h-1 w-24 bg-emerald-400 mx-auto mb-8 shadow-[0_0_10px_var(--primary)]"
+                            className: "h-1 w-24 bg-blue-500 mx-auto mb-8 shadow-[0_0_10px_var(--primary)]"
                         }, void 0, false, {
                             fileName: "[project]/components/AboutSection.tsx",
                             lineNumber: 9,
@@ -240,7 +240,7 @@ function AboutSection() {
                                     className: "text-2xl font-black mb-8 text-white uppercase tracking-tight flex items-center gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-emerald-400",
+                                            className: "text-blue-500",
                                             children: "01."
                                         }, void 0, false, {
                                             fileName: "[project]/components/AboutSection.tsx",
@@ -266,7 +266,7 @@ function AboutSection() {
                                             className: "flex items-start gap-4 group",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-emerald-400 mt-1 font-bold",
+                                                    className: "text-blue-500 mt-1 font-bold",
                                                     children: "✦"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/AboutSection.tsx",
@@ -299,13 +299,13 @@ function AboutSection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "glass-morphism cyber-border p-10 rounded-sm border-l-emerald-500/50",
+                            className: "glass-morphism cyber-border p-10 rounded-sm border-l-blue-500/50",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-2xl font-black mb-8 text-white uppercase tracking-tight flex items-center gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-emerald-400",
+                                            className: "text-blue-500",
                                             children: "02."
                                         }, void 0, false, {
                                             fileName: "[project]/components/AboutSection.tsx",
@@ -332,13 +332,13 @@ function AboutSection() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador",
                                         target: "_blank",
-                                        className: "flex items-center justify-between p-5 glass-morphism border border-white/5 hover:border-emerald-400/50 transition-all group",
+                                        className: "flex items-center justify-between p-5 glass-morphism border border-white/5 hover:border-blue-500/50 transition-all group",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex flex-col",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-[10px] text-emerald-400 uppercase tracking-widest mb-1",
+                                                        className: "text-[10px] text-blue-500 uppercase tracking-widest mb-1",
                                                         children: "Ajuda Imediata"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/AboutSection.tsx",
@@ -360,7 +360,7 @@ function AboutSection() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-emerald-400 font-black text-sm group-hover:translate-x-2 transition-transform uppercase tracking-widest",
+                                                className: "text-blue-500 font-black text-sm group-hover:translate-x-2 transition-transform uppercase tracking-widest",
                                                 children: "LINHA AJUDA →"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/AboutSection.tsx",
@@ -507,7 +507,7 @@ function DisclaimerBar() {
                             " (chamada gratuita) ou visite a ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: "https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador",
-                                className: "text-emerald-400 border-b border-emerald-400/30",
+                                className: "text-blue-500 border-b border-blue-500/30",
                                 children: "Linha Ajuda"
                             }, void 0, false, {
                                 fileName: "[project]/components/DisclaimerBar.tsx",
@@ -646,7 +646,7 @@ function Footer() {
                                 className: "text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-4 h-[1px] bg-emerald-400"
+                                        className: "w-4 h-[1px] bg-blue-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.tsx",
                                         lineNumber: 27,
@@ -671,14 +671,14 @@ function Footer() {
                                 className: "flex items-center gap-2 mt-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-1.5 h-1.5 rounded-full bg-emerald-400"
+                                        className: "w-1.5 h-1.5 rounded-full bg-blue-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.tsx",
                                         lineNumber: 33,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-emerald-400 text-[10px] font-black uppercase tracking-widest",
+                                        className: "text-blue-500 text-[10px] font-black uppercase tracking-widest",
                                         children: "Conteúdo Publicitário"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.tsx",
@@ -1012,10 +1012,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Hero() {
     const currentYear = new Date().getFullYear();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative pt-32 pb-20 px-6 overflow-hidden bg-[#0f0f12]",
+        className: "relative pt-32 pb-20 px-6 overflow-hidden bg-[#020617]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl bg-emerald-900/10 blur-[150px] rounded-full -z-10"
+                className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl bg-blue-900/10 blur-[150px] rounded-full -z-10"
             }, void 0, false, {
                 fileName: "[project]/components/Hero.tsx",
                 lineNumber: 9,
@@ -1034,7 +1034,7 @@ function Hero() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "inline-flex items-center gap-2 px-4 py-1.5 mb-10",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-[11px] font-bold uppercase tracking-[0.3em] text-emerald-400",
+                            className: "text-[11px] font-bold uppercase tracking-[0.3em] text-blue-500",
                             children: [
                                 "OBSERVATÓRIO PT · EDIÇÃO ",
                                 currentYear
@@ -1080,7 +1080,7 @@ function Hero() {
                         className: "flex items-center justify-center gap-6 mb-24",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                className: "w-6 h-6 text-emerald-500",
+                                className: "w-6 h-6 text-blue-600",
                                 fill: "none",
                                 stroke: "currentColor",
                                 viewBox: "0 0 24 24",
@@ -1100,7 +1100,7 @@ function Hero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                className: "w-6 h-6 text-emerald-500",
+                                className: "w-6 h-6 text-blue-600",
                                 fill: "none",
                                 stroke: "currentColor",
                                 viewBox: "0 0 24 24",
@@ -1120,7 +1120,7 @@ function Hero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-2xl text-emerald-500 font-light tracking-tighter",
+                                className: "text-2xl text-blue-600 font-light tracking-tighter",
                                 children: "$"
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.tsx",
@@ -1148,7 +1148,7 @@ function Hero() {
                                 className: "bg-white/5 border border-white/10 p-8 rounded-2xl flex items-center gap-6 text-left group hover:bg-white/[0.08] transition-all",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-emerald-500/50 transition-colors",
+                                        className: "w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-blue-500/50 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                             className: "w-6 h-6 text-gray-400",
                                             fill: "none",
@@ -1208,7 +1208,7 @@ function Hero() {
                                 className: "bg-white/5 border border-white/10 p-8 rounded-2xl flex items-center gap-6 text-left group hover:bg-white/[0.08] transition-all",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-emerald-500/50 transition-colors",
+                                        className: "w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-blue-500/50 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                             className: "w-6 h-6 text-gray-400",
                                             fill: "none",
@@ -1268,7 +1268,7 @@ function Hero() {
                                 className: "bg-white/5 border border-white/10 p-8 rounded-2xl flex items-center gap-6 text-left group hover:bg-white/[0.08] transition-all",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-emerald-500/50 transition-colors",
+                                        className: "w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-blue-500/50 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-2xl text-gray-400 font-light",
                                             children: "$"

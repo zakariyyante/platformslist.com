@@ -25,11 +25,11 @@ export default async function Home(props: {
         <Hero />
         
         {/* Brand Grid Section */}
-        <section id="brands" className="py-32 px-6 bg-[#0f0f12]">
+        <section id="brands" className="py-32 px-6 bg-[#020617]">
           <div className="container mx-auto">
             <div className="text-center mb-20">
               <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">
-                Top <span className="text-emerald-400">Plataformas</span> Recomendadas
+                Top <span className="text-blue-500">Plataformas</span> Recomendadas
               </h2>
               <p className="text-gray-500 text-sm max-w-xl mx-auto font-medium leading-relaxed">
                 A nossa seleção rigorosa dos melhores sites baseada na segurança, bónus e experiência do utilizador.

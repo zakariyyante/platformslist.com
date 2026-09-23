@@ -44,7 +44,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
   const formatBonus = (text: string) => {
     return text.split(/(\d+€|\d+FS)/g).map((part, i) => {
       if (part.match(/\d+€|\d+FS/)) {
-        return <span key={i} className="text-emerald-400 drop-shadow-[0_0_8px_rgba(16,185,129,0.6)] font-black">{part}</span>;
+        return <span key={i} className="text-blue-400 drop-shadow-[0_0_8px_rgba(37,99,235,0.6)] font-black">{part}</span>;
       }
       return part;
     });
@@ -53,19 +53,19 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
   if (variant === 'modal') {
     let label;
     if (rank === 1) {
-      label = { text: "Melhor Casino", color: "bg-emerald-600" };
+      label = { text: "Melhor Casino", color: "bg-blue-600" };
     } else if (rank === 2) {
-      label = { text: "Novo Casino", color: "bg-emerald-950" };
+      label = { text: "Novo Casino", color: "bg-blue-950" };
     } else if (rank === 3) {
-      label = { text: "Levantamento Rápido", color: "bg-emerald-900" };
+      label = { text: "Levantamento Rápido", color: "bg-blue-900" };
     }
 
     return (
       <div 
-        className="bg-[#15151a] border border-emerald-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(16,185,129,0.15)] active:shadow-[0_0_50px_rgba(16,185,129,0.3)] transition-all duration-500"
+        className="bg-[#15151a] border border-blue-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(37,99,235,0.15)] active:shadow-[0_0_50px_rgba(37,99,235,0.3)] transition-all duration-500"
         onClick={handleCardClick}
       >
-        <div className="absolute inset-0 bg-emerald-500/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity" />
+        <div className="absolute inset-0 bg-blue-500/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity" />
         {label && (
           <div className={`absolute -top-3 left-4 px-3 py-1 rounded-full ${label.color} text-white text-[8px] font-black uppercase tracking-[0.1em] shadow-[0_4px_10px_rgba(0,0,0,0.5)] z-10 border border-white/10 flex items-center justify-center`}>
             {label.text}
@@ -89,7 +89,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
             <div className="flex flex-col items-end">
               <div className="flex gap-1 mb-1">
                 {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-3.5 h-3.5 text-emerald-400 drop-shadow-[0_0_5px_rgba(16,185,129,0.4)]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg key={i} className="w-3.5 h-3.5 text-blue-400 drop-shadow-[0_0_5px_rgba(37,99,235,0.4)]" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
@@ -102,7 +102,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
         </div>
 
         <button 
-          className="w-full py-4 rounded-xl bg-linear-to-r from-emerald-400 via-emerald-500 to-emerald-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(16,185,129,0.2)] active:scale-95 transition-all"
+          className="w-full py-4 rounded-xl bg-linear-to-r from-blue-400 via-blue-500 to-blue-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(37,99,235,0.2)] active:scale-95 transition-all"
           onClick={(e) => {
             e.stopPropagation();
             handleCardClick();
@@ -133,7 +133,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
           <div className="flex items-center gap-2 mb-4">
             <div className="flex gap-0.5">
               {[...Array(5)].map((_, i) => (
-                <svg key={i} className={`w-3 h-3 ${i < 5 ? "text-emerald-500" : "text-gray-600"}`} fill="currentColor" viewBox="0 0 20 20">
+                <svg key={i} className={`w-3 h-3 ${i < 5 ? "text-blue-500" : "text-gray-600"}`} fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
               ))}
@@ -150,8 +150,8 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
         </div>
 
         <div className="flex flex-col items-center md:items-end text-center md:text-right">
-          <div className="bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full mb-4">
-            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400">Bónus Exclusivo</span>
+          <div className="bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full mb-4">
+            <span className="text-[9px] font-black uppercase tracking-widest text-blue-400">Bónus Exclusivo</span>
           </div>
           <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tight max-w-xs">
             {brand.bonus}
@@ -160,7 +160,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
       </div>
 
       <button 
-        className="w-full py-5 rounded-2xl bg-linear-to-r from-emerald-400 via-emerald-500 to-emerald-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(16,185,129,0.2)] hover:shadow-[0_0_30px_rgba(16,185,129,0.4)] transition-all cursor-pointer"
+        className="w-full py-5 rounded-2xl bg-linear-to-r from-blue-400 via-blue-500 to-blue-600 text-black font-black text-xs uppercase tracking-[0.2em] shadow-[0_0_20px_rgba(37,99,235,0.2)] hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] transition-all cursor-pointer"
         onClick={(e) => {
           e.stopPropagation();
           handleCardClick();

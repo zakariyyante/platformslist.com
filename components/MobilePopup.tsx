@@ -42,7 +42,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
     >
       <div className="min-h-screen flex flex-col bg-black/40 backdrop-blur-[1px]">
         {/* Modal Header */}
-        <div className="sticky top-0 z-[110] bg-[#15151a]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
+        <div className="sticky top-0 z-[110] bg-[#020617]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
           <div className="relative w-40 h-10">
             <Image 
               src="/logo-platformslist.png" 
@@ -57,9 +57,9 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
           {/* Burger Menu Mock */}
           <button className="text-white p-2" aria-label="Menu Principal">
             <div className="w-5 h-4 flex flex-col justify-between items-end">
-              <span className="h-0.5 w-5 bg-emerald-500 rounded-full" />
-              <span className="h-0.5 w-3 bg-emerald-500 rounded-full" />
-              <span className="h-0.5 w-5 bg-emerald-500 rounded-full" />
+              <span className="h-0.5 w-5 bg-blue-500 rounded-full" />
+              <span className="h-0.5 w-3 bg-blue-500 rounded-full" />
+              <span className="h-0.5 w-5 bg-blue-500 rounded-full" />
             </div>
           </button>
         </div>
@@ -67,14 +67,14 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
         {/* Modal Content */}
         <div className="flex-grow">
           <section className="pt-6 pb-4 px-6 text-center">
-            <div className="inline-flex items-center gap-2 mb-4 px-4 py-1 rounded-full bg-black/40 border border-emerald-500/40 backdrop-blur-md shadow-lg">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" aria-hidden="true" />
-              <span className="text-[8px] font-black uppercase tracking-[0.3em] text-emerald-400">
+            <div className="inline-flex items-center gap-2 mb-4 px-4 py-1 rounded-full bg-black/40 border border-blue-500/40 backdrop-blur-md shadow-lg">
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" aria-hidden="true" />
+              <span className="text-[8px] font-black uppercase tracking-[0.3em] text-blue-400">
                 EXCLUSIVO MÓVEL
               </span>
             </div>
             <h2 id="modal-title" className="text-2xl font-black mb-3 uppercase tracking-tight leading-tight text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-              AS MELHORES <span className="text-emerald-400">OFERTAS DO DIA</span>
+              AS MELHORES <span className="text-blue-400">OFERTAS DO DIA</span>
             </h2>
             <p className="text-white text-[11px] max-w-sm mx-auto font-bold mb-6 leading-relaxed drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] px-4">
               Novas ofertas, levantamentos rápidos e as melhores plataformas selecionadas para si, com bónus exclusivos otimizados para o seu smartphone.
@@ -86,13 +86,13 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                 {[...Array(2)].map((_, listIdx) => (
                   <div key={listIdx} className="flex gap-2.5 px-1.25">
                     {[
-                      { isFlag: true, text: 'Portugal', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
+                      { isFlag: true, text: 'Portugal', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
                       { type: 'icon', icon: 'bitcoin', text: 'Crypto Pay', color: 'bg-[#0a0a0f] border-orange-500/50 text-orange-400' },
-                      { type: 'icon', icon: 'bank', text: 'Transferência', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
-                      { type: 'icon', icon: 'shield', text: 'Levantamentos Rápidos', color: 'bg-[#0a0a0f] border-emerald-800/50 text-emerald-400' },
-                      { type: 'icon', icon: 'lock', text: 'Segurança SSL', color: 'bg-[#0a0a0f] border-emerald-500/50 text-emerald-400' },
+                      { type: 'icon', icon: 'bank', text: 'Transferência', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
+                      { type: 'icon', icon: 'shield', text: 'Levantamentos Rápidos', color: 'bg-[#0a0a0f] border-blue-800/50 text-blue-400' },
+                      { type: 'icon', icon: 'lock', text: 'Segurança SSL', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
                       { icon: 'shield-exclamation', text: '18+', color: 'bg-[#0a0a0f] border-red-900/50 text-red-500' },
-                      { icon: 'badge-check', text: 'Licença SRIJ', color: 'bg-[#0a0a0f] border-emerald-500/30 text-emerald-400' },
+                      { icon: 'badge-check', text: 'Licença SRIJ', color: 'bg-[#0a0a0f] border-blue-500/30 text-blue-400' },
                       { type: 'icon', icon: 'support', text: 'Suporte 24/7', color: 'bg-[#0a0a0f] border-slate-800 text-slate-400' }
                     ].map((badge: any, i) => (
                       <div 
@@ -100,7 +100,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                         className={`flex items-center gap-2 px-4 py-2 rounded-full border whitespace-nowrap ${badge.color}`}
                       >
                         {badge.isFlag && (
-                          <div className="w-5 h-3.5 rounded-sm overflow-hidden border border-emerald-400 flex shrink-0">
+                          <div className="w-5 h-3.5 rounded-sm overflow-hidden border border-blue-500 flex shrink-0">
                             <div className="flex-[2] bg-[#006600]"></div>
                             <div className="flex-[3] bg-[#ff0000]"></div>
                           </div>

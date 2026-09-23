@@ -13,7 +13,7 @@ export default function PrivacyPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              No <span className="text-emerald-400 font-bold uppercase tracking-widest text-xs">Platforms List</span>, acessível em platformslist.com, a proteção dos seus metadados e da sua privacidade está integrada por defeito na nossa arquitetura.
+              No <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platforms List</span>, acessível em platformslist.com, a proteção dos seus metadados e da sua privacidade está integrada por defeito na nossa arquitetura.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Ficheiros de Registo</h2>

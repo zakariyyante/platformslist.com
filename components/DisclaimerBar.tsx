@@ -20,7 +20,7 @@ export default function DisclaimerBar() {
         {/* Center: Risk Info */}
         <div className="flex-1 max-w-xl text-center lg:text-left">
           <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest leading-loose">
-            O jogo acarreta riscos: endividamento, isolamento, dependência. Para obter ajuda, ligue para o <span className="text-white">1414</span> (chamada gratuita) ou visite a <Link href="https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador" className="text-emerald-400 border-b border-emerald-400/30">Linha Ajuda</Link>.
+            O jogo acarreta riscos: endividamento, isolamento, dependência. Para obter ajuda, ligue para o <span className="text-white">1414</span> (chamada gratuita) ou visite a <Link href="https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador" className="text-blue-500 border-b border-blue-500/30">Linha Ajuda</Link>.
           </p>
         </div>
 

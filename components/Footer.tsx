@@ -24,14 +24,14 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-24 max-w-6xl mx-auto">
           <div className="md:col-span-2">
             <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2">
-              <span className="w-4 h-[1px] bg-emerald-400" /> DIVULGAÇÃO DE AFILIAÇÃO
+              <span className="w-4 h-[1px] bg-blue-500" /> DIVULGAÇÃO DE AFILIAÇÃO
             </h4>
             <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
               O Platforms List opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas, sem, no entanto, alterar a neutralidade das nossas avaliações baseadas em testes reais.
             </p>
             <div className="flex items-center gap-2 mt-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-              <span className="text-emerald-400 text-[10px] font-black uppercase tracking-widest">Conteúdo Publicitário</span>
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+              <span className="text-blue-500 text-[10px] font-black uppercase tracking-widest">Conteúdo Publicitário</span>
             </div>
           </div>
         </div>
