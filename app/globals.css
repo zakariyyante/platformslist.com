@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card-bg: var(--card-bg);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-highlight: var(--highlight);
+}
+
+:root {
+  --background: #0f0f12;
+  --foreground: #ffffff;
+  --card-bg: rgba(20, 20, 25, 0.8);
+  --primary: #10b981;
+  --accent: #34d399;
+  --highlight: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Cyber Style Utilities */
+
+.cyber-grid {
+  background-image: 
+    linear-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.cyber-glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+}
+
+.cyber-glow-text {
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.5);
+}
+
+.cyber-border {
+  position: relative;
+  border: 1px solid rgba(14, 165, 233, 0.2);
+}
+
+.cyber-border::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid var(--accent);
+  border-left: 2px solid var(--accent);
+}
+
+.cyber-border::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
+}
+
+.glass-morphism {
+  background: rgba(20, 20, 25, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.neon-button {
+  @apply relative overflow-hidden transition-all duration-300;
+  background: linear-gradient(135deg, var(--primary), #059669);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.6);
+  transform: translateY(-2px);
+}
+
+.tech-gradient-text {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-white via-[#10b981] to-[#34d399];
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.logo-shimmer {
+  mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%, #000 50%, rgba(0,0,0,0.6) 70%);
+  mask-size: 200%;
+  animation: logo-shimmer 3s infinite;
+}
+
+@keyframes logo-shimmer {
+  from { mask-position: 150%; }
+  to { mask-position: -50%; }
+}
+
+.spotlight-bg {
+  background: radial-gradient(circle at 50% -20%, #064e3b 0%, #0f0f12 60%);
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
