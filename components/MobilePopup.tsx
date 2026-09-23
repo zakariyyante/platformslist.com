@@ -42,7 +42,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
     >
       <div className="min-h-screen flex flex-col bg-black/40 backdrop-blur-[1px]">
         {/* Modal Header */}
-        <div className="sticky top-0 z-[110] bg-[#020617]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
+        <div className="sticky top-0 z-[110] bg-[#0f172a]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
           <div className="relative w-40 h-10">
             <Image 
               src="/logo-platformslist.png" 
@@ -100,7 +100,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                         className={`flex items-center gap-2 px-4 py-2 rounded-full border whitespace-nowrap ${badge.color}`}
                       >
                         {badge.isFlag && (
-                          <div className="w-5 h-3.5 rounded-sm overflow-hidden border border-blue-500 flex shrink-0">
+                          <div className="w-5 h-3.5 rounded-sm overflow-hidden border border-blue-400 flex shrink-0">
                             <div className="flex-[2] bg-[#006600]"></div>
                             <div className="flex-[3] bg-[#ff0000]"></div>
                           </div>

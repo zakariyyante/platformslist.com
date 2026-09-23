@@ -55,14 +55,14 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
     if (rank === 1) {
       label = { text: "Melhor Casino", color: "bg-blue-600" };
     } else if (rank === 2) {
-      label = { text: "Novo Casino", color: "bg-blue-950" };
+      label = { text: "Novo Casino", color: "bg-slate-900" };
     } else if (rank === 3) {
-      label = { text: "Levantamento Rápido", color: "bg-blue-900" };
+      label = { text: "Levantamento Rápido", color: "bg-slate-800" };
     }
 
     return (
       <div 
-        className="bg-[#15151a] border border-blue-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(37,99,235,0.15)] active:shadow-[0_0_50px_rgba(37,99,235,0.3)] transition-all duration-500"
+        className="bg-[#0f172a] border border-blue-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(37,99,235,0.15)] active:shadow-[0_0_50px_rgba(37,99,235,0.3)] transition-all duration-500"
         onClick={handleCardClick}
       >
         <div className="absolute inset-0 bg-blue-500/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity" />
@@ -117,7 +117,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
   // Default Desktop variant
   return (
     <div 
-      className="bg-[#15151a] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10"
+      className="bg-[#0f172a] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10"
       onClick={handleCardClick}
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">

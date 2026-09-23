@@ -57,16 +57,16 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
         } else if (rank === 2) {
             label = {
                 text: "Novo Casino",
-                color: "bg-blue-950"
+                color: "bg-slate-900"
             };
         } else if (rank === 3) {
             label = {
                 text: "Levantamento Rápido",
-                color: "bg-blue-900"
+                color: "bg-slate-800"
             };
         }
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-[#15151a] border border-blue-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(37,99,235,0.15)] active:shadow-[0_0_50px_rgba(37,99,235,0.3)] transition-all duration-500",
+            className: "bg-[#0f172a] border border-blue-500/20 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(37,99,235,0.15)] active:shadow-[0_0_50px_rgba(37,99,235,0.3)] transition-all duration-500",
             onClick: handleCardClick,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -205,7 +205,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
     }
     // Default Desktop variant
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-[#15151a] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10",
+        className: "bg-[#0f172a] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10",
         onClick: handleCardClick,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -565,7 +565,7 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full bg-[#161021] py-1.5 border-b border-white/5",
+                    className: "w-full bg-[#0f172a] py-1.5 border-b border-white/5",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "container mx-auto px-6 flex justify-center items-center gap-2",
                         children: [

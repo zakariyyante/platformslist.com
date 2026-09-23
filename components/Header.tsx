@@ -55,7 +55,7 @@ export default function Header() {
         </div>
 
         {/* Advertising Disclosure Bar */}
-        <div className="w-full bg-[#161021] py-1.5 border-b border-white/5">
+        <div className="w-full bg-[#0f172a] py-1.5 border-b border-white/5">
           <div className="container mx-auto px-6 flex justify-center items-center gap-2">
             <div className="w-3 h-3 rounded-full border border-gray-600 flex items-center justify-center text-[8px] text-gray-500 font-bold leading-none">i</div>
             <span className="text-[8px] text-gray-500 uppercase tracking-[0.2em] font-bold">

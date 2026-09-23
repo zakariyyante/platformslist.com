@@ -46,13 +46,13 @@ export default function AboutSection() {
               <a 
                 href="https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador" 
                 target="_blank" 
-                className="flex items-center justify-between p-5 glass-morphism border border-white/5 hover:border-blue-500/50 transition-all group"
+                className="flex items-center justify-between p-5 glass-morphism border border-white/5 hover:border-blue-400/50 transition-all group"
               >
                 <div className="flex flex-col">
-                  <span className="text-[10px] text-blue-500 uppercase tracking-widest mb-1">Ajuda Imediata</span>
+                  <span className="text-[10px] text-blue-400 uppercase tracking-widest mb-1">Ajuda Imediata</span>
                   <span className="font-bold text-white text-lg tracking-tighter">1414</span>
                 </div>
-                <span className="text-blue-500 font-black text-sm group-hover:translate-x-2 transition-transform uppercase tracking-widest">LINHA AJUDA →</span>
+                <span className="text-blue-400 font-black text-sm group-hover:translate-x-2 transition-transform uppercase tracking-widest">LINHA AJUDA →</span>
               </a>
             </div>
           </div>
