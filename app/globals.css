@@ -10,11 +10,11 @@
 }
 
 :root {
-  --background: #0a0c14;
+  --background: #020617;
   --foreground: #ffffff;
   --card-bg: rgba(15, 23, 42, 0.8);
   --primary: #2563eb;
-  --accent: #3b82f6;
+  --accent: #60a5fa;
   --highlight: #ffffff;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .spotlight-bg {
-  background: radial-gradient(circle at 50% -20%, #1e3a8a 0%, #0a0c14 60%);
+  background: radial-gradient(circle at 50% -20%, #1e3a8a 0%, #020617 60%);
 }
 
 @keyframes marquee {

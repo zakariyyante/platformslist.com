@@ -1109,20 +1109,6 @@
     background-color: #0a0a0f;
   }
 
-  .bg-\[\#0a0c14\] {
-    background-color: #0a0c14;
-  }
-
-  .bg-\[\#0a0c14\]\/80 {
-    background-color: #0a0c14cc;
-    background-color: lab(3.37384% .560477 -4.3655 / .8);
-  }
-
-  .bg-\[\#0a0c14\]\/95 {
-    background-color: #0a0c14f2;
-    background-color: lab(3.37384% .560477 -4.36549 / .95);
-  }
-
   .bg-\[\#0a070f\] {
     background-color: #0a070f;
   }
@@ -2017,11 +2003,11 @@
 }
 
 :root {
-  --background: #0a0c14;
+  --background: #020617;
   --foreground: #fff;
   --card-bg: #0f172acc;
   --primary: #2563eb;
-  --accent: #3b82f6;
+  --accent: #60a5fa;
   --highlight: #fff;
 }
 
@@ -2156,7 +2142,7 @@ body {
 }
 
 .spotlight-bg {
-  background: radial-gradient(circle at 50% -20%, #1e3a8a 0%, #0a0c14 60%);
+  background: radial-gradient(circle at 50% -20%, #1e3a8a 0%, #020617 60%);
 }
 
 @keyframes marquee {

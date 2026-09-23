@@ -5,7 +5,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0a0c14] pt-24 pb-12 border-t border-white/5">
+    <footer className="bg-[#010401] pt-24 pb-12 border-t border-white/5">
       <div className="container mx-auto px-6">
         {/* Centered Logo */}
         <div className="flex justify-center mb-20">

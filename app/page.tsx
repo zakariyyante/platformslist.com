@@ -25,7 +25,7 @@ export default async function Home(props: {
         <Hero />
         
         {/* Brand Grid Section */}
-        <section id="brands" className="py-32 px-6 bg-[#0a0c14]">
+        <section id="brands" className="py-32 px-6 bg-[#020617]">
           <div className="container mx-auto">
             <div className="text-center mb-20">
               <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">
