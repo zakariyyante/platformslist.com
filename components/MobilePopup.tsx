@@ -42,7 +42,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
     >
       <div className="min-h-screen flex flex-col bg-black/40 backdrop-blur-[1px]">
         {/* Modal Header */}
-        <div className="sticky top-0 z-[110] bg-[#020617]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
+        <div className="sticky top-0 z-[110] bg-[#0a0c14]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
           <div className="relative w-40 h-10">
             <Image 
               src="/logo-platformslist.png" 

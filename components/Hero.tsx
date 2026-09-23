@@ -4,7 +4,7 @@ export default function Hero() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-[#020617]">
+    <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-[#0a0c14]">
       {/* Background Gradient Effect */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl bg-blue-900/10 blur-[150px] rounded-full -z-10" />
       

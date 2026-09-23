@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 z-50 w-full bg-[#020617]/95 backdrop-blur-sm border-b border-white/5">
+      <header className="fixed top-0 z-50 w-full bg-[#0a0c14]/95 backdrop-blur-sm border-b border-white/5">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/">
             <div className="relative w-48 h-12">
@@ -66,7 +66,7 @@ export default function Header() {
 
         {/* Mobile Nav */}
         {isOpen && (
-          <div className="md:hidden bg-[#020617] border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300">
+          <div className="md:hidden bg-[#0a0c14] border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300">
             <Link href="/" onClick={() => setIsOpen(false)} className="text-sm font-bold text-white tracking-widest">INÍCIO</Link>
             <Link href="#brands" onClick={() => setIsOpen(false)} className="text-sm font-bold text-white tracking-widest">MARCAS</Link>
             <Link href="#guide" onClick={() => setIsOpen(false)} className="text-sm font-bold text-white tracking-widest">GUIDE</Link>
