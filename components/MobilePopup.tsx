@@ -160,13 +160,17 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                 <Link href="https://www.srij.turismodeportugal.pt/pt" target="_blank" className="relative w-16 h-8">
                   <Image src="/srij.webp" alt="SRIJ" fill className="object-contain" />
                 </Link>
+                <Link href="https://www.icad.pt/" target="_blank" className="relative w-16 h-8">
+                  <Image src="/icad.webp" alt="ICAD" fill className="object-contain" />
+                </Link>
                 <Link href="https://www.gambleaware.org/" target="_blank" className="relative w-24 h-8">
                   <Image src="/begambleaware.webp" alt="Responsabilidade" fill className="object-contain" />
                 </Link>
               </div>
               <p className="text-[10px] text-white/30 leading-relaxed font-bold uppercase tracking-widest">
                 O jogo deve continuar a ser um prazer. <br />
-                Ligue 1414 para obter ajuda.
+                Ligue 1414 para obter ajuda. <br />
+                Todos os links direcionam para operadores licenciados em Portugal.
               </p>
             </div>
           </div>

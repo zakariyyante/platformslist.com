@@ -35,6 +35,11 @@ export default function TermsPage() {
               <li>Redistribuir conteúdo do Platforms List</li>
             </ul>
 
+            <h2 className="text-xl font-bold text-white uppercase mt-8">Verificação de Operadores</h2>
+            <p>
+              O Platforms List funciona como um agregador de serviços de jogo. Confirmamos explicitamente que todos os links externos (outbound links) presentes neste website direcionam estritamente para entidades de jogo devidamente licenciadas e autorizadas a operar em Portugal pela entidade reguladora competente (SRIJ).
+            </p>
+
             <h2 className="text-xl font-bold text-white uppercase mt-8">Isenção de Responsabilidade</h2>
             <p>
               Na medida máxima permitida pela lei aplicável, excluímos todas as representações, garantias e condições relativas ao nosso website e à utilização deste website. Nada nesta isenção de responsabilidade irá:

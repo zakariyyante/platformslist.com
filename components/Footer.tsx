@@ -22,16 +22,31 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-24 max-w-6xl mx-auto">
-          <div className="md:col-span-2">
-            <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2">
-              <span className="w-4 h-[1px] bg-blue-500" /> DIVULGAÇÃO DE AFILIAÇÃO
-            </h4>
-            <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
-              O Platforms List opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas, sem, no entanto, alterar a neutralidade das nossas avaliações baseadas em testes reais.
-            </p>
-            <div className="flex items-center gap-2 mt-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-              <span className="text-blue-500 text-[10px] font-black uppercase tracking-widest">Conteúdo Publicitário</span>
+          <div className="md:col-span-2 space-y-12">
+            <div>
+              <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2">
+                <span className="w-4 h-[1px] bg-blue-500" /> DIVULGAÇÃO DE AFILIAÇÃO
+              </h4>
+              <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
+                O Platforms List opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas, sem, no entanto, alterar a neutralidade das nossas avaliações baseadas em testes reais.
+              </p>
+              <div className="flex items-center gap-2 mt-6">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                <span className="text-blue-500 text-[10px] font-black uppercase tracking-widest">Conteúdo Publicitário</span>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2">
+                <span className="w-4 h-[1px] bg-blue-500" /> CONFORMIDADE LEGAL
+              </h4>
+              <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
+                Confirmamos explicitamente que todos os links de saída (outbound links) presentes neste website direcionam estritamente para entidades de jogo devidamente licenciadas e autorizadas a operar em Portugal.
+              </p>
+              <div className="flex items-center gap-2 mt-6">
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                <span className="text-blue-500 text-[10px] font-black uppercase tracking-widest">Links Autorizados</span>
+              </div>
             </div>
           </div>
         </div>
@@ -61,6 +76,9 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-center gap-10 mb-16 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
           <Link href="https://www.srij.turismodeportugal.pt/pt" target="_blank">
             <Image src="/srij.webp" alt="SRIJ" width={60} height={30} className="object-contain" />
+          </Link>
+          <Link href="https://www.icad.pt/" target="_blank">
+            <Image src="/icad.webp" alt="ICAD" width={80} height={30} className="object-contain" />
           </Link>
           <Link href="https://www.gamcare.org.uk/" target="_blank">
             <Image src="/gamcare.png" alt="GamCare" width={80} height={30} className="object-contain" />

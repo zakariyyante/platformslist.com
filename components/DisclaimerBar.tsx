@@ -20,7 +20,8 @@ export default function DisclaimerBar() {
         {/* Center: Risk Info */}
         <div className="flex-1 max-w-xl text-center lg:text-left">
           <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest leading-loose">
-            O jogo acarreta riscos: endividamento, isolamento, dependência. Para obter ajuda, ligue para o <span className="text-white">1414</span> (chamada gratuita) ou visite a <Link href="https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador" className="text-blue-400 border-b border-blue-400/30">Linha Ajuda</Link>.
+            O jogo acarreta riscos: endividamento, isolamento, dependência. Para obter ajuda, ligue para o <span className="text-white">1414</span> (chamada gratuita) ou visite a <Link href="https://www.srij.turismodeportugal.pt/pt/sos-jogadores/servicos-de-apoio-ao-jogador" className="text-blue-400 border-b border-blue-400/30">Linha Ajuda</Link>. <br />
+            <span className="text-gray-400">Todos os links externos direcionam para entidades licenciadas em Portugal.</span>
           </p>
         </div>
 
@@ -28,6 +29,9 @@ export default function DisclaimerBar() {
         <div className="flex items-center justify-center gap-6 border border-white/10 p-4 rounded-xl min-w-[200px] grayscale opacity-50">
           <Link href="https://www.srij.turismodeportugal.pt/pt" target="_blank">
             <Image src="/srij.webp" alt="Regulado pela SRIJ" width={80} height={40} className="object-contain" />
+          </Link>
+          <Link href="https://www.icad.pt/" target="_blank">
+            <Image src="/icad.webp" alt="ICAD" width={80} height={40} className="object-contain" />
           </Link>
           <Link href="https://www.gamcare.org.uk/" target="_blank">
             <Image src="/gamcare.png" alt="GamCare" width={80} height={40} className="object-contain" />
