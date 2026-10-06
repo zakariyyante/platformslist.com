@@ -108,7 +108,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
             handleCardClick();
           }}
         >
-          Jogar em {brand.name}
+          Visitar {brand.name}
         </button>
       </div>
     );
@@ -122,13 +122,17 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">
         <div className="flex flex-col items-center md:items-start">
-          <div className="relative w-32 h-16 mb-4">
-            <Image 
-              src={brand.logo} 
-              alt={`${brand.name} logo`} 
-              fill 
-              className="object-contain" 
-            />
+          <div className="relative w-32 h-16 mb-4 flex items-center justify-center bg-white/5 rounded-lg overflow-hidden">
+            {brand.logo ? (
+              <Image 
+                src={brand.logo} 
+                alt={`${brand.name} logo`} 
+                fill 
+                className="object-contain p-2" 
+              />
+            ) : (
+              <span className="text-white font-black text-lg">{brand.name}</span>
+            )}
           </div>
           <div className="flex items-center gap-2 mb-4">
             <div className="flex gap-0.5">
@@ -142,6 +146,16 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
               {brand.rating.toFixed(1)} <span className="text-gray-600">/ 10</span>
             </span>
           </div>
+          {brand.pros && (
+            <div className="hidden md:flex flex-col gap-1 mb-4">
+              {brand.pros.map((pro, i) => (
+                <div key={i} className="flex items-center gap-2">
+                  <span className="text-blue-500 text-[8px]">✔</span>
+                  <span className="text-[9px] text-gray-400 uppercase font-bold tracking-tighter">{pro}</span>
+                </div>
+              ))}
+            </div>
+          )}
           <div className="flex items-center gap-2 grayscale opacity-70">
             <div className="bg-white/10 p-1 rounded text-[10px] text-white font-bold w-6 h-4 flex items-center justify-center">₿</div>
             <div className="bg-white/10 p-1 rounded text-[10px] text-white font-bold w-6 h-4 flex items-center justify-center">P</div>
@@ -166,7 +180,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
           handleCardClick();
         }}
       >
-        Jogar em {brand.name}
+        Visitar {brand.name}
       </button>
     </div>
   );

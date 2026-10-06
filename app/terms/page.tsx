@@ -35,9 +35,9 @@ export default function TermsPage() {
               <li>Redistribuir conteúdo do Platforms Lists</li>
             </ul>
 
-            <h2 className="text-xl font-bold text-white uppercase mt-8">Verificação de Operadores</h2>
+            <h2 className="text-xl font-bold text-white uppercase mt-8">Verificação de Plataformas</h2>
             <p>
-              O Platforms Lists funciona como um agregador de serviços de jogo. Confirmamos explicitamente que todos os links externos (outbound links) presentes neste website direcionam estritamente para entidades de jogo devidamente licenciadas e autorizadas a operar em Portugal pela entidade reguladora competente (SRIJ).
+              O Platforms Lists funciona como um comparador de plataformas. Confirmamos explicitamente que todos os links externos (outbound links) presentes neste website direcionam estritamente para entidades devidamente licenciadas e autorizadas a operar em Portugal pela entidade reguladora competente (SRIJ).
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Isenção de Responsabilidade</h2>

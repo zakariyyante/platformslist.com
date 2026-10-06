@@ -4,11 +4,11 @@ export default function AboutSection() {
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-black mb-6 uppercase tracking-tighter text-white">
-            NOSSO SISTEMA <span className="tech-gradient-text">DE ANÁLISE</span>
+            ANÁLISE DE <span className="tech-gradient-text">PLATAFORMAS</span>
           </h2>
           <div className="h-1 w-24 bg-blue-500 mx-auto mb-8 shadow-[0_0_10px_var(--primary)]" />
           <p className="text-gray-400 text-lg font-light leading-relaxed">
-            Aplicamos um protocolo de classificação preciso baseado em mais de 50 critérios de seleção para garantir uma experiência ideal.
+            Utilizamos um sistema de comparação rigoroso para avaliar cada plataforma, garantindo que apenas as melhores opções chegam à nossa lista.
           </p>
         </div>
         
@@ -16,15 +16,15 @@ export default function AboutSection() {
           {/* Excellence Analytique */}
           <div className="glass-morphism cyber-border p-10 rounded-sm">
             <h3 className="text-2xl font-black mb-8 text-white uppercase tracking-tight flex items-center gap-4">
-              <span className="text-blue-500">01.</span> AUDITORIA DE DESEMPENHO
+              <span className="text-blue-500">01.</span> COMPARAÇÃO TÉCNICA
             </h3>
             <ul className="space-y-6">
               {[
-                "Estudos detalhados realizados por especialistas do mercado",
-                "Controlo permanente de bónus e ofertas promocionais",
-                "Verificação rigorosa de prazos e métodos de pagamento",
-                "Auditoria de segurança e conformidade com o quadro regulamentar da SRIJ",
-                "Protocolo de pontuação proprietário Platforms Lists"
+                "Comparação detalhada de plataformas por especialistas",
+                "Monitorização contínua de bónus e ofertas",
+                "Verificação de segurança e métodos de depósito",
+                "Conformidade total com a regulação SRIJ",
+                "Protocolo de avaliação Platforms Lists"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4 group">
                   <span className="text-blue-500 mt-1 font-bold">✦</span>

@@ -6,8 +6,8 @@ import "./globals.css";
 const GA_MEASUREMENT_ID = "AW-18359108026";
 
 export const metadata: Metadata = {
-  title: "Platforms Lists - Os Melhores Sites de Jogos em Portugal",
-  description: "Aceda ao portal das melhores plataformas de jogos em Portugal. Avaliações de especialistas, bónus exclusivos e pagamentos rápidos.",
+  title: "Platforms Lists - Comparação das Melhores Plataformas em Portugal",
+  description: "Aceda à comparação das melhores plataformas em Portugal. Avaliações de especialistas, bónus exclusivos e segurança garantida para todas as plataformas.",
   icons: {
     icon: "/favicon.png",
   },

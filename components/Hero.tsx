@@ -19,11 +19,11 @@ export default function Hero() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight text-white max-w-4xl mx-auto leading-[1.1]">
-          Comparação de operadores populares
+          Comparação das Melhores <span className="text-blue-500">Plataformas</span>
         </h1>
         
         <p className="text-base md:text-lg text-gray-400 mb-6 max-w-3xl mx-auto leading-relaxed font-light">
-          Analise promoções controladas, marcas acompanhadas de perto e alternativas populares em Portugal. Filtre de acordo com os seus critérios e encontre a oferta certa sem perder tempo.
+          Analise e compare as plataformas mais populares em Portugal. O nosso observatório avalia cada detalhe para que possa escolher a plataforma ideal com total segurança e transparência.
         </p>
 
         <div className="text-[10px] text-gray-600 uppercase font-bold tracking-widest mb-8">
