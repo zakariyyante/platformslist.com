@@ -28,7 +28,7 @@ export default function Footer() {
                 <span className="w-4 h-[1px] bg-blue-500" /> DIVULGAÇÃO DE AFILIAÇÃO
               </h4>
               <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
-                O Platforms Lists opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas, sem, no entanto, alterar a neutralidade das nossas avaliações baseadas em testes reais.
+                O Platforms Lists opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas.
               </p>
               <div className="flex items-center gap-2 mt-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />

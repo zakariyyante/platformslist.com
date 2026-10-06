@@ -53,11 +53,11 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
   if (variant === 'modal') {
     let label;
     if (rank === 1) {
-      label = { text: "Melhor Casino", color: "bg-blue-600" };
+      label = { text: "Melhor Opção", color: "bg-blue-600" };
     } else if (rank === 2) {
-      label = { text: "Novo Casino", color: "bg-slate-900" };
+      label = { text: "Nova Plataforma", color: "bg-slate-900" };
     } else if (rank === 3) {
-      label = { text: "Levantamento Rápido", color: "bg-slate-800" };
+      label = { text: "Processamento Eficiente", color: "bg-slate-800" };
     }
 
     return (
@@ -165,7 +165,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
 
         <div className="flex flex-col items-center md:items-end text-center md:text-right">
           <div className="bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full mb-4">
-            <span className="text-[9px] font-black uppercase tracking-widest text-blue-400">Bónus Exclusivo</span>
+            <span className="text-[9px] font-black uppercase tracking-widest text-blue-400">Oferta Disponível</span>
           </div>
           <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tight max-w-xs">
             {brand.bonus}

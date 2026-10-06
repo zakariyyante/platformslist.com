@@ -63,7 +63,7 @@ export default function Hero() {
             </div>
             <div>
               <h4 className="text-white font-bold text-base uppercase tracking-wider">Especialidade</h4>
-              <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-1">Avaliações Certificadas</p>
+              <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-1">Análise Técnica</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function Hero() {
             </div>
             <div>
               <h4 className="text-white font-bold text-base uppercase tracking-wider">Rapidez</h4>
-              <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-1">Levantamentos 24h</p>
+              <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-1">Processamento Eficiente</p>
             </div>
           </div>
         </div>

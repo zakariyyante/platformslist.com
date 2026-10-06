@@ -77,7 +77,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
               AS MELHORES <span className="text-blue-400">OFERTAS DO DIA</span>
             </h2>
             <p className="text-white text-[11px] max-w-sm mx-auto font-bold mb-6 leading-relaxed drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] px-4">
-              Novas ofertas, levantamentos rápidos e as melhores plataformas selecionadas para si, com bónus exclusivos otimizados para o seu smartphone.
+              Novas ofertas, processamento eficiente e as melhores plataformas selecionadas para si, com promoções otimizadas para o seu smartphone.
             </p>
 
             {/* Floating Trust Badges - Infinite Marquee */}
@@ -89,7 +89,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
                       { isFlag: true, text: 'Portugal', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
                       { type: 'icon', icon: 'bitcoin', text: 'Crypto Pay', color: 'bg-[#0a0a0f] border-orange-500/50 text-orange-400' },
                       { type: 'icon', icon: 'bank', text: 'Transferência', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
-                      { type: 'icon', icon: 'shield', text: 'Levantamentos Rápidos', color: 'bg-[#0a0a0f] border-blue-800/50 text-blue-400' },
+                      { type: 'icon', icon: 'shield', text: 'Processamento Eficiente', color: 'bg-[#0a0a0f] border-blue-800/50 text-blue-400' },
                       { type: 'icon', icon: 'lock', text: 'Segurança SSL', color: 'bg-[#0a0a0f] border-blue-500/50 text-blue-400' },
                       { icon: 'shield-exclamation', text: '18+', color: 'bg-[#0a0a0f] border-red-900/50 text-red-500' },
                       { icon: 'badge-check', text: 'Licença SRIJ', color: 'bg-[#0a0a0f] border-blue-500/30 text-blue-400' },

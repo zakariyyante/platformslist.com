@@ -7,7 +7,7 @@ const GA_MEASUREMENT_ID = "AW-18359108026";
 
 export const metadata: Metadata = {
   title: "Platforms Lists - Comparação das Melhores Plataformas em Portugal",
-  description: "Aceda à comparação das melhores plataformas em Portugal. Avaliações de especialistas, bónus exclusivos e segurança garantida para todas as plataformas.",
+  description: "Aceda à comparação das melhores plataformas em Portugal. Avaliações de especialistas, ofertas competitivas e segurança garantida para todas as plataformas.",
   icons: {
     icon: "/favicon.png",
   },

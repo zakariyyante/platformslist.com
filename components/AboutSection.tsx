@@ -23,7 +23,7 @@ export default function AboutSection() {
                 "Comparação detalhada de plataformas por especialistas",
                 "Monitorização contínua de bónus e ofertas",
                 "Verificação de segurança e métodos de depósito",
-                "Conformidade total com a regulação SRIJ",
+                "Verificação da licença SRIJ",
                 "Protocolo de avaliação Platforms Lists"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4 group">
