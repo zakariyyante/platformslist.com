@@ -13,31 +13,31 @@ export default function TermsPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Bem-vindo ao portal <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platforms List</span>.
+              Bem-vindo ao portal <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platforms Lists</span>.
             </p>
             <p>
-              Estes termos e condições descrevem as regras e regulamentos para a utilização do website do Platforms List, localizado em platformslist.com.
+              Estes termos e condições descrevem as regras e regulamentos para a utilização do website do Platforms Lists, localizado em platformslists.com.
             </p>
             <p>
-              Ao aceder a este website, assumimos que aceita estes termos e condições. Não continue a utilizar o Platforms List se não concordar em aceitar todos os termos e condições declarados nesta página.
+              Ao aceder a este website, assumimos que aceita estes termos e condições. Não continue a utilizar o Platforms Lists se não concordar em aceitar todos os termos e condições declarados nesta página.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Licença</h2>
             <p>
-              Salvo indicação em contrário, o Platforms List e/ou os seus licenciadores detêm os direitos de propriedade intelectual de todo o material no Platforms List. Todos os direitos de propriedade intelectual são reservados. Pode aceder ao mesmo a partir do Platforms List para seu uso pessoal, sujeito às restrições definidas nestes termos e condições.
+              Salvo indicação em contrário, o Platforms Lists e/ou os seus licenciadores detêm os direitos de propriedade intelectual de todo o material no Platforms Lists. Todos os direitos de propriedade intelectual são reservados. Pode aceder ao mesmo a partir do Platforms Lists para seu uso pessoal, sujeito às restrições definidas nestes termos e condições.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Não deve:</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Republicar material do Platforms List</li>
-              <li>Vender, alugar ou sublicenciar material do Platforms List</li>
-              <li>Reproduzir, duplicar ou copiar material do Platforms List</li>
-              <li>Redistribuir conteúdo do Platforms List</li>
+              <li>Republicar material do Platforms Lists</li>
+              <li>Vender, alugar ou sublicenciar material do Platforms Lists</li>
+              <li>Reproduzir, duplicar ou copiar material do Platforms Lists</li>
+              <li>Redistribuir conteúdo do Platforms Lists</li>
             </ul>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Verificação de Operadores</h2>
             <p>
-              O Platforms List funciona como um agregador de serviços de jogo. Confirmamos explicitamente que todos os links externos (outbound links) presentes neste website direcionam estritamente para entidades de jogo devidamente licenciadas e autorizadas a operar em Portugal pela entidade reguladora competente (SRIJ).
+              O Platforms Lists funciona como um agregador de serviços de jogo. Confirmamos explicitamente que todos os links externos (outbound links) presentes neste website direcionam estritamente para entidades de jogo devidamente licenciadas e autorizadas a operar em Portugal pela entidade reguladora competente (SRIJ).
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Isenção de Responsabilidade</h2>

@@ -12,8 +12,8 @@ export default function Footer() {
           <Link href="/">
             <div className="relative w-48 h-24">
               <Image 
-                src="/logo-platformslist.png" 
-                alt="Platforms List Logo" 
+                src="/logo-platformslists.png" 
+                alt="Platforms Lists Logo" 
                 fill
                 className="object-contain opacity-50" 
               />
@@ -28,7 +28,7 @@ export default function Footer() {
                 <span className="w-4 h-[1px] bg-blue-500" /> DIVULGAÇÃO DE AFILIAÇÃO
               </h4>
               <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
-                O Platforms List opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas, sem, no entanto, alterar a neutralidade das nossas avaliações baseadas em testes reais.
+                O Platforms Lists opera como um comparador independente. Podem ser recebidas remunerações de afiliados dos operadores aqui mencionados. Estas parcerias podem influenciar a classificação das marcas, sem, no entanto, alterar a neutralidade das nossas avaliações baseadas em testes reais.
               </p>
               <div className="flex items-center gap-2 mt-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
@@ -91,7 +91,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="text-center border-t border-white/5 pt-10">
           <p className="text-gray-700 text-[9px] font-bold uppercase tracking-[0.2em]">
-            © {currentYear} platformslist.com • Todos os direitos reservados
+            © {currentYear} platformslists.com • Todos os direitos reservados
           </p>
         </div>
       </div>

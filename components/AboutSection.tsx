@@ -24,7 +24,7 @@ export default function AboutSection() {
                 "Controlo permanente de bónus e ofertas promocionais",
                 "Verificação rigorosa de prazos e métodos de pagamento",
                 "Auditoria de segurança e conformidade com o quadro regulamentar da SRIJ",
-                "Protocolo de pontuação proprietário Platforms List"
+                "Protocolo de pontuação proprietário Platforms Lists"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4 group">
                   <span className="text-blue-500 mt-1 font-bold">✦</span>

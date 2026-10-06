@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://platformslist.com/sitemap.xml
+Sitemap: https://platformslists.com/sitemap.xml

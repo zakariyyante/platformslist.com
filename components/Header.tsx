@@ -14,8 +14,8 @@ export default function Header() {
           <Link href="/">
             <div className="relative w-48 h-12">
               <Image 
-                src="/logo-platformslist.png" 
-                alt="Platforms List Logo" 
+                src="/logo-platformslists.png" 
+                alt="Platforms Lists Logo" 
                 fill
                 className="object-contain object-left scale-125 origin-left" 
               />

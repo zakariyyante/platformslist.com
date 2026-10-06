@@ -45,8 +45,8 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
         <div className="sticky top-0 z-[110] bg-[#0f172a]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
           <div className="relative w-40 h-10">
             <Image 
-              src="/logo-platformslist.png" 
-              alt="Platforms List Logo" 
+              src="/logo-platformslists.png" 
+              alt="Platforms Lists Logo" 
               fill 
               className="object-contain object-left scale-150 origin-left" 
               priority
